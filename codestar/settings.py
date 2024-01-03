@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '8000-endamagennis-i-think-the-dc120rch3u.us2.codeanyapp.com',
+    '8000-endamagennis-i-think-the-9n4man2jcf.us2.codeanyapp.com',
     '.herokuapp.com'
 ]
 
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_summernote',
+    'about',
     'blog',
 ]
 
